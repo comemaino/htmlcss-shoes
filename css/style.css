@@ -11,6 +11,7 @@ html {
 }
 
 .frame {
+    position: relative;
     width: 100%;
     height: 100vh;
 }
@@ -29,6 +30,22 @@ html {
     background-color: #f7bd53;
 }
 
+.frame#tommy {
+    background-color: #2e407a;
+}
+
+.frame#converse {
+    background-color: #eee169;
+}
+
 .frame h2.navy {
-    color: rgb(43, 64, 110);
+    color: #2b406e;
+}
+
+.frame h2.red {
+    color: #c21919;
+}
+
+.frame h2.tile {
+    color: #01505e;
 }
